@@ -1,0 +1,44 @@
+{
+  "name": "cortex-ls",
+  "version": "0.1.0",
+  "description": "List dependencies of current package",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/jshint index.js test/*.js",
+    "test": "./node_modules/.bin/mocha -R spec test"
+  },
+  "bin": {
+    "cortex-ls": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cortexjs/cortex-ls.git"
+  },
+  "keywords": [
+    "cortex-ls",
+    "cortex",
+    "dependencies"
+  ],
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "author": "villadora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cortexjs/cortex-ls/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "jshint": "^2.5.1",
+    "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "ansicolors": "^0.3.2",
+    "archy": "~0.0.2",
+    "async": "^0.9.0",
+    "cortex-shrinkwrap": "^2.1.2",
+    "read-cortex-json": "^3.2.0",
+    "semver": "^2.3.1",
+    "underscore": "^1.6.0"
+  }
+}
