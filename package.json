@@ -1,14 +1,11 @@
 {
   "name": "cortex-ls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "List dependencies of current package",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/jshint index.js test/*.js",
     "test": "./node_modules/.bin/mocha -R spec test"
-  },
-  "bin": {
-    "cortex-ls": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
