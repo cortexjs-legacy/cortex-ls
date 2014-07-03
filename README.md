@@ -1,17 +1,17 @@
-# cortex-bundle [![NPM version](https://badge.fury.io/js/cortex-bundle.svg)](http://badge.fury.io/js/cortex-bundle) [![Build Status](https://travis-ci.org/cortexjs/cortex-bundle.svg?branch=master)](https://travis-ci.org/cortexjs/cortex-bundle) [![Dependency Status](https://gemnasium.com/cortexjs/cortex-bundle.svg)](https://gemnasium.com/cortexjs/cortex-bundle)
+# cortex-ls [![NPM version](https://badge.fury.io/js/cortex-ls.svg)](http://badge.fury.io/js/cortex-ls) [![Build Status](https://travis-ci.org/cortexjs/cortex-ls.svg?branch=master)](https://travis-ci.org/cortexjs/cortex-ls) [![Dependency Status](https://gemnasium.com/cortexjs/cortex-ls.svg)](https://gemnasium.com/cortexjs/cortex-ls)
 
 <!-- description -->
 
 ## Install
 
 ```bash
-$ npm install cortex-bundle --save
+$ npm install cortex-ls --save
 ```
 
 ## Usage
 
 ```js
-var cortex_bundle = require('cortex-bundle');
+var cortex_ls = require('cortex-ls);
 ```
 
 ## Licence
